@@ -17,7 +17,7 @@ mainMenu.append(menuItem);
 function createWindow() {
     // Create the browser window.
     win = new BrowserWindow({
-        width: 800,
+        width: 1130,
         height: 600,
         show: false,
         // frame: false,
