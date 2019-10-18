@@ -1,0 +1,16 @@
+{
+  "name": "electron-test",
+  "version": "0.0.1",
+  "description": "Electron first app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "nodemon --exec electron --inspect=5858 ."
+  },
+  "author": "Vytautas Klimavicius",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.0.12",
+    "nodemon": "^1.19.4"
+  }
+}
