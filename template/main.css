@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-image: url('./bridge.jpg');
+}
+
+.main-header {
+    width: 100%;
+    padding: 20px;
+    background-color:rgb(56, 109, 40);
+    border-radius: 10px;
+}
+
+.first-header {
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 40px;
+    margin: 0px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.a-focus:hover {
+    color: cadetblue;
+}
+
+.second-header {
+    color: orange;
+    margin: 1px;
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 80%;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 25px;
+    font-weight: bold;
+}
+
+.login-button {
+    background: #303A2A;
+    padding: 8px 30px;
+    border-radius: 5px;
+}
+
+.login-button:hover {
+    background: cyan;
+}
+
+
+.main-nav__item > a {
+    text-decoration: none;
+    color: white; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.main-nav__item > a:hover {
+    color: cadetblue;
+}
+
+a.no-change:hover {
+    color: white;
+}
+
+.article-cards {
+    background: #3F5E52;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    height: 300px;
+    margin: 30px;
+    vertical-align: middle;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif; 
+    font-size: 20px;
+    box-shadow: 10px 10px 2px 5 px rgba(0,0,0,0.50);
+    box-sizing: border-box;
+}
+
+.highlight {
+    height: 400px;
+    padding-top: 10px;
+}
+
+.article-cards:hover {
+    background: #367D07;
+}
+
+.cards-button {
+    background: #303A2A;
+    border-radius: 10px;
+    padding: 5px 5px;
+    border: 2px solid #303A2A; 
+    color: white;
+}
+
+.cards-button:hover {
+    background: yellowgreen;
+}
+
+.article-cards__title {
+    background: white;
+    padding: 5px;
+    color: black;
+    margin: 10px 20px;
+    box-shadow: 10px 10px 2px 5px rgba(0,0,0,0.50);
+    border-radius: 5px;
+}
+
+.article-cards__list {
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+}
+    
