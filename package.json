@@ -10,7 +10,7 @@
   "author": "Vytautas Klimavicius",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^6.0.12",
+    "electron": "^11.5.0",
     "nodemon": "^1.19.4"
   }
 }
